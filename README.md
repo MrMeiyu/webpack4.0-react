@@ -1,5 +1,7 @@
 ## 新增了babel的几个包
 
+> 其他两个分支没有加入
+
 - [@babel/plugin-proposal-decorators](https://babel.docschina.org/docs/en/babel-plugin-proposal-decorators): 解析装饰器模式语法，如使用react-redux的@connect
 - [@babel/plugin-proposal-class-properties](https://babel.docschina.org/docs/en/babel-plugin-proposal-class-properties): 解析class类的属性
 - [@babel/plugin-proposal-export-default-from](https://babel.docschina.org/docs/en/babel-plugin-proposal-export-default-from): 解析export xxx from 'xxx'语法
