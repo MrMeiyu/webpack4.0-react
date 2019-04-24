@@ -4,10 +4,14 @@ const APP_PATH = path.resolve(__dirname, '../src')
 
 module.exports = {
   entry: {
-    app: './src/index.js'
+    app: './src/index.js',
+    react: [
+      'react',
+      'react-dom'
+    ]
   },
   output: {
-    filename: 'bundle.js',
+    filename: 'js/[name].[chunkhash:16].js',
     path: OUTPUT_PATH
   },
   module: {
